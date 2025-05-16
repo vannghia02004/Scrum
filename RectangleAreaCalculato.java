@@ -1,12 +1,13 @@
+package cong_tru_nhanh_chia;
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
 
-public class RectangleAreaCalculator extends JFrame implements ActionListener {
+public class RectangleAreaCalculato extends JFrame implements ActionListener {
     private JTextField txtLength, txtWidth, txtResult;
     private JButton btnCalculate;
 
-    public RectangleAreaCalculator() {
+    public RectangleAreaCalculato() {
         setTitle("Tính Diện Tích Hình Chữ Nhật");
         setSize(350, 200);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -51,7 +52,7 @@ public class RectangleAreaCalculator extends JFrame implements ActionListener {
 
     public static void main(String[] args) {
         SwingUtilities.invokeLater(() -> {
-            new RectangleAreaCalculator().setVisible(true);
+            new RectangleAreaCalculato().setVisible(true);
         });
     }
 }

@@ -1,14 +1,15 @@
+package cong_tru_nhanh_chia;
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-public class AddTwoNumbers extends JFrame {
+public class tcong2so extends JFrame {
     private JTextField firstNumberField, secondNumberField;
     private JButton addButton;
     private JTextArea resultArea;
 
-    public AddTwoNumbers() {
+    public tcong2so() {
         setTitle("Add Two Numbers");
         setSize(300, 200);
         setDefaultCloseOperation(EXIT_ON_CLOSE);
@@ -52,5 +53,6 @@ public class AddTwoNumbers extends JFrame {
     }
 
     public static void main(String[] args) {
-        SwingUtilities.invokeLater(() -> new AddTwoNumbers().setVisible(true));
+        SwingUtilities.invokeLater(() -> new tcong2so().setVisible(true));
     }
+}

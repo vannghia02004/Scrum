@@ -1,4 +1,4 @@
-package sprint1;
+package cong_tru_nhanh_chia;
 
 /**
  *

@@ -1,11 +1,12 @@
-rừ hai số import javax.swing.*;
+package cong_tru_nhanh_chia;
+import javax.swing.*;
 import java.awt.event.*;
 
-public class SubtractTwoNumbers extends JFrame {
+public class tru2so extends JFrame {
     private JTextField txtNumber1, txtNumber2, txtResult;
     private JButton btnSubtract;
 
-    public SubtractTwoNumbers() {
+    public tru2so() {
         setTitle("Phép trừ hai số");
         setSize(350, 180);
         setDefaultCloseOperation(EXIT_ON_CLOSE);
@@ -57,7 +58,7 @@ public class SubtractTwoNumbers extends JFrame {
 
     public static void main(String[] args) {
         SwingUtilities.invokeLater(() -> {
-            new SubtractTwoNumbers().setVisible(true);
+            new tru2so().setVisible(true);
         });
     }
 }
